@@ -1,0 +1,39 @@
+---
+import * as CONTENT from "../pages/content"
+import ButtonLayout from "../layouts/ButtonLayout.astro";
+---
+
+<!-- Hero section -->
+<header class="mx-auto py-8 ">
+    <article
+      class="grid grid-cols-3 grid-rows-1 place-items-center w-[98vw] max-w-4xl"
+    >
+      <div
+        class="rounded-full border-primary self-end shadow-2xl w-28 aspect-square"
+      >
+        <img
+          src="/profile.png"
+          alt="profile_picture"
+          class="object-cover w-full h-full rounded-full md:grid hidden"
+        />
+      </div>
+  
+      <div class="grid text-center self-center whitespace-nowrap">
+        <h1 class="text-3xl text-text">{CONTENT.name}</h1>
+        <h4 class="text-lg text-text/90">{CONTENT.designation}</h4>
+        <h4 class="text-lg text-text/90">{CONTENT.title}</h4>
+        <h5 class="text-sm text-text/80">{CONTENT.location}</h5>
+      </div>
+          
+      <div class=" text-right self-center md:grid hidden">
+        <ButtonLayout icon={"ion:open"}/>
+      </div>
+    </article>
+    <article
+      class="grid grid-cols-1 grid-rows-1 place-items-center w-[98vw] max-w-4xl mt-5"
+    >
+      <div class=" text-right self-center max-md:grid hidden">
+        <ButtonLayout icon={"ion:open"}/>
+      </div>
+    </article>
+</header>

@@ -1,0 +1,22 @@
+---
+import { Icon } from "astro-icon";
+const { timeframe, title, description, url, tags, url_name } = Astro.props
+---
+
+<div class="w-full p-2  border-b-[1px] border-dashed py-8 border-text/25">
+    <div class="self-start justify-self-end">
+        <a href={url} target="_blank" class="text-base text-right text-text/60 hover:text-text/80 flex items-center">
+            {
+                url_name === "Github" && <Icon name="ion:logo-github" class="w-4 h-4 mx-2 " /> 
+            }
+            {
+                url_name === "LinkedIn" && <Icon name="ion:logo-linkedin" class="w-4 h-4 mx-2" /> 
+            }
+            {
+                url === "#" && <Icon name="ion:mail" class="w-4 h-4 mx-2" /> 
+            }
+            {url_name}
+            
+        </a>
+    </div>
+</div>
