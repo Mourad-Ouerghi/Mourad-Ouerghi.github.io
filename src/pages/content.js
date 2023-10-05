@@ -9,7 +9,7 @@ export const LinkedIn = "My linkedIn"
 export const buttonContent = "My Resume"
 
 // About
-export const about = "Hello, I'm Mourad Ouerghi a software engineering student 👨‍💻 at Faculty of Sciences of Tunisia, ambitious and hardworking person who’s always ready for new experiences, I've been a tech 💻 enthusiaste since highschool that's why I chose this career path. Currently my interests are shifted towards web development, cloud ☁ and DevOps 🐳. Feel free to contact me if you have any questions or if you want to work with me 😃. (Oh have I mentionned that I love anime? my favourite anime is HunterXHunter🤫)"
+export const about = "Hello, I'm Mourad Ouerghi a software engineering student 👨‍💻 at Faculty of Sciences of Tunisia, ambitious and hardworking person who’s always ready for new experiences, I've been a tech 💻 enthusiast since highschool that's why I chose this career path. Currently my interests are shifted towards web development, automations, cloud ☁ and DevOps 🐳. Feel free to contact me if you have any questions or if you want to work with me 😃. (Oh have I mentionned that I love anime? my favourite anime is HunterXHunter🤫)"
 
 // Work Experience --> #work section
 export const work = [
@@ -154,7 +154,7 @@ export const blogs = [
 ]
 
 // Achievements --> #achievement section
-export const achievements = [
+export const extra = [
 	{
 		title: "Java tutor at Optima Junior Entreprise",
 		year: "2023",
@@ -166,13 +166,13 @@ export const achievements = [
 		decription: " Management of the various exchange participants as well as attendance at international meetings with other Aiesec members to set exchange goals."
 	},
 	{
-		title: "Member of the Aiesec association",
-		year: "2022",
-		decription: " Management of the various exchange participants as well as attendance at international meetings with other Aiesec members to set exchange goals."
-	},
-	{
 		title: "Member of the organizing team of IP Days event held by REDSTART",
 		year: "2022",
 		decription: "Honored for promoting safety awareness and education in the Quahog community."
 	},
+	{
+		title: "Participant in the JET’EXPO competition",
+		year: "2021",
+		decription: " Implement a business plan with a team of 5 people for a project of our choice that respects one of the objectives of sustainable development in order to present the idea in front of a jury."
+	}
 ]
